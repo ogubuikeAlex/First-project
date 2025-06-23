@@ -1,0 +1,122 @@
+*{
+margin: 0px;
+padding: 0px;
+line-height: 1.5;
+}
+
+body{
+/* box-sizing: border-box; */
+box-sizing: 50%;
+padding: 0px;
+margin: 0px;
+background-color: hsl(0, 17%, 95%);
+}
+
+header{
+display: flex;
+background-color: #fff;
+margin: 10px;
+padding: 1rem;
+padding-left: 4rem;
+/* position: fixed; */
+}
+
+.nav_links, .nav_links>span{
+display: flex;
+gap: 2rem;
+}
+
+.nav_links>li,a{
+list-style-type:none;
+text-decoration: none;
+cursor: pointer;
+color: black;
+}
+
+.nav_links_extra{
+margin-left: 15rem;
+cursor: pointer;
+}
+
+#deu{
+color: blue;
+font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 
+'Lucida Grande', 'Lucida Sans',
+ Arial, sans-serif;
+ font-size: 1.5rem;
+ font-weight: bold;
+}
+
+#btn1{
+border: 2px solid black;
+border-radius: 8px;
+/* color: #0000; */
+background-color: #fff;
+width: 5vw;
+height: 3vh;
+}
+
+#btn2{
+background-color:  blue;
+color: #ffff;
+border:  blue;
+border-radius: 8px;
+width: 7vw;
+height: 3vh;
+}
+
+/* Styling the mini-buttons */
+#gs{
+background-color: blue;
+color: #fff;
+border: 3px solid blue;
+border-radius: 2px;
+width: 10vw;
+height:4vh;
+border-radius: 10px;
+}
+#dn{
+background-color: azure;
+width: 10vw;
+height: 3.5vh;
+border: 2.5px solid black;
+border-radius: 10px;
+}
+
+main{
+background-color: #fff;
+}
+/* Hero styling */
+
+#hero{
+padding: 3rem 4rem;
+}
+
+.hero_page>span{
+position: absolute;
+left: 650px;
+top: 110px;
+}
+
+.hero_page>h2{
+font-size: 2.5rem;
+padding-bottom: 10px;
+}
+
+.hero_page>p{
+text-transform: capitalize;
+}
+
+#gh{
+background-color: rgba(92, 43, 226, 0.829);
+border: 2px solid rgba(92, 43, 226, 0.829);
+width: 7vw;
+height: 2vw;
+border-radius: 10px;
+color: #fff;
+cursor: pointer;
+}
+
+.hero_contents{
+padding-top: 17rem;
+}
