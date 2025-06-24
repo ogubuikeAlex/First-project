@@ -148,6 +148,35 @@ gap: 10px;
 } */
 /* Will qork on this later */
 
+/* Change styling for the page content */
+
+.try{
+display: flex;
+justify-content: center;
+flex-wrap: wrap;
+}
+
+.hero_page_content{
+width: 40%;
+
+/* background-color: red;
+border-radius: 20px;
+place-items: center; */
+/* width: 70%;*/
+display: flex;
+justify-content: center;
+}
+
+.page_content{
+background-color: #fff;
+border-radius: 20px;
+place-items: center;
+width: 60%;
+margin: 12px;
+}
+
+/* Change styling for the page content */
+
 .hero_page_other{
 background-color: rgba(0, 255, 242, 0.103);
 padding: 3rem 4rem;

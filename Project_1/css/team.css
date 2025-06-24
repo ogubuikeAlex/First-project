@@ -89,7 +89,7 @@ background-color: #fff;
 /* Hero styling */
 
 #hero{
-padding: 3rem 4rem;
+padding:3rem 5rem;
 }
 
 .hero_page>span{
@@ -118,5 +118,82 @@ cursor: pointer;
 }
 
 .hero_contents{
-padding-top: 17rem;
+padding-top:8rem;
+padding-left: 2rem;
 }
+
+.hero_contents>div>h2{
+font-size: 2rem;
+margin-left: 18px;
+}
+
+.hero_culture{
+background-color: rgba(0, 255, 255, 0.082);
+padding: 4rem;
+}
+
+.hero_culture>h2{
+font-size: 2rem;
+padding-bottom: 1rem;
+}
+
+.culture_stats{
+display: flex;
+flex-wrap: wrap;
+}
+
+.stats{
+width: 500px;
+margin: 12px;
+margin-left: 2rem;
+padding: 12px;
+/* font-size: 1rem; */
+}
+
+/* Hero contents styling */
+.contents_dropdown{
+margin: 12px;
+/* flex-wrap: wrap; */
+
+}
+.contents_dropdown>span{
+margin: 12px;
+}
+
+#an{
+background-color: rgba(92, 43, 226, 0.829);
+border: 2px solid rgba(92, 43, 226, 0.829);
+width: 7vw;
+height: 2vw;
+border-radius: 10px;
+color: #fff;
+cursor: pointer;
+}
+
+/* Footer section styling */
+
+footer{
+padding: 3rem 3rem;
+height: fit-content;
+background-color: rgb(21, 21, 90);
+color: #fff;
+}
+
+#footer_content>div>h4{
+padding-bottom: 10px;
+}
+
+#footer_content{
+color: #fff;
+display: flex;
+gap: 2rem;
+}
+
+.footer_list{
+margin-right: 2rem;
+gap: 5rem;
+justify-content: space-between;
+padding-bottom: 3rem;
+}
+
+

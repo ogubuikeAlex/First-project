@@ -17,12 +17,8 @@ display: flex;
 background-color: #fff;
 margin: 10px;
 padding: 1rem;
-padding-top: 0%;
 padding-left: 4rem;
 /* position: fixed; */
-}
-main{
-padding: 3rem 4rem;
 }
 
 .nav_links, .nav_links>span{
@@ -79,10 +75,11 @@ width: 10vw;
 height:4vh;
 border-radius: 10px;
 }
+
 #dn{
 background-color: azure;
 width: 10vw;
-height: 3.5vh;
+height: 3.6vh;
 border: 2.5px solid black;
 border-radius: 10px;
 }
