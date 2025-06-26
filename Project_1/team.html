@@ -49,20 +49,32 @@
             </span>
         </div>
         
-        <div class="hero_contents">
+        <button id="toggle1">TOGGLE VISIBILITY⬇</button>
+        <button id="toggle_1"> OPEN VISIBILITY⬇</button>
+        <div class="hero_contents" >
+        <div class="hidden">
         <div>
             <h2>Leadership</h2>
-            <span>
+            <span id="visibility">
                 <img src="images/Rectangle 283.png" alt="" height="250px" width="auto">
                 <img src="images/Rectangle 285.png" alt="" height="250px" width="auto">
                 <img src="images/Rectangle 290.png" alt="" height="250px" width="auto">
                 <img src="images/Rectangle 291.png" alt="" height="250px" width="auto">
             </span>
         </div>
+    </div>
 
-        <div>
+         <!-- this addition is just for a space to add an overlay div to close background color -->
+        
+         
+         <div class="overlay">
+         
+            <!-- this addition is just for a space to add an overlay div to close background color -->
+         <div style="padding-top: 1rem;" id="background_color">
+             <button id="toggle2">TOGGLE BACKGROUND COLOR⬇</button>
             <h2>Members</h2>
            <span style="margin: 12px; max-width: 250px; overflow: scroll;">
+
             <img src="images/Mask Group.png" alt="" height="250px" width="auto">
             <img src="images/Mask Group (1).png" alt="" height="250px" width="auto"
             <img src="images/Mask Group (2).png" alt="" height="250px" width="auto">
@@ -74,12 +86,18 @@
             <img src="images/Mask Group (8).png" alt="" height="250px" width="auto">
             <img src="images/Mask Group (9).png" alt="" height="250px" width="auto">
             <img src="images/Mask Group (10).png" alt="" height="250px" width="auto">
-            <img src="images/Mask Group (11).png" alt="" height="250px" width="auto"> <br><br>
+            <img src="images/Mask Group (11).png" alt="" height="250px" width="auto"> 
+            <!-- <br><br> -->
             <img src="images/Mask Group (12).png" alt="" height="250px" width="auto">
            </span>
         </div>
-        </div>
-    </section>
+    </div>
+</section>
+<!-- this addition is just for a space to add an overlay div to close background color -->
+
+</div>
+        
+       <!-- this addition is just for a space to add an overlay div to close background color -->
 
     <section class="hero_culture">
         <h2>Our culture</h2>
@@ -144,8 +162,11 @@
             </span>
         </div>
 
-        <div>
+        <div style="padding-bottom: 1rem;">
+            <button id="toggle3">CHANGE IMAGE➡</button>
             <h3 style="color: rgba(92, 43, 226, 0.829); font-size: 32px;">Join with us</h3>
+            <span>
+            </span>
             <p>Come do meaningful work with kind, smart <br>
                 colleages who're invested in your growth.</p><br>
             <button id="an">Apply a position</button>
@@ -198,5 +219,6 @@
     </span>
 </footer>
 
+<script src="js/teams.js"></script>
 </body>
 </html>

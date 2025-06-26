@@ -128,8 +128,8 @@ font-size: large;
 
 #page_content2>span{
 display: flex;
-padding-left: 6rem;
-padding-bottom: 2rem;
+padding-left: 15rem;
+padding-bottom: 3rem;
 }
 
 .content2_menu{
@@ -151,6 +151,7 @@ color: rgba(137, 43, 226, 0.61);
 display: flex; flex-direction: row;
 gap: 2rem;
 padding: 5px;
+margin-left: 9rem;
 }
 
 #page_content3>img{
@@ -187,20 +188,21 @@ padding-top: 3rem;
 }
 
 #page_content4>span{
-display: flex;
+display: grid;
+grid-template-columns: 0.1fr 0fr 1fr;
 gap: 2rem;
-margin:10px 10px;
+margin:10px;
+margin-left: 18rem;
 place-content: center;
 padding-top: 1.5rem;
 padding-bottom: 3rem;
 }
 
-
-
 .content4{
-background-color: rgb(237, 232, 248);
-width: 12vw;
-height: 20vh;
+/* background-color: rgb(237, 232, 248); */
+background-color: rgba(105, 90, 205, 0.144);
+width: 15vw;
+height: 22vh;
 text-align: center;
 border-radius: 15px;
 }
@@ -261,10 +263,12 @@ text-align: center;
 
 #sn{
 background-color: blueviolet;
+border: 2px solid blueviolet;
 width: 8vw;
 height: 4vh;
 border-radius: 10px;
 color: #fff;
+cursor: pointer;
 }
 
 /* Page content 7 styling */

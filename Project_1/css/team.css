@@ -118,17 +118,72 @@ cursor: pointer;
 }
 
 .hero_contents{
-padding-top:8rem;
+padding-top:2rem;
 padding-left: 2rem;
 }
+/* TOGGLE VISIBILITY OF LEADERSHIP */
+#toggle1, #toggle_1{
+font-size: 1.1rem;
+font-weight: bold;
+background-color: peachpuff;
+padding: 10px;
+cursor: pointer;
+margin-top: 160px;
+}
+
+#toggle1:hover,#toggle_1:hover{
+background-color: olive;
+transition: 1s;
+}
+
+.hidden{
+opacity: 1;
+/* display: ; */
+transition: 3s;
+}
+/* .hidden{
+opacity: 100;
+display: ;
+transition: 3s;
+} */
+
+/* TOGGLE VISIBILITY OF LEADERSHIP */
+
+
+/* This button styling below is for visibility/ background color toggle */
+
+#toggle2{
+font-size: 1.1rem;
+font-weight: bold;
+background-color: peachpuff;
+padding: 10px;
+cursor: pointer;
+}
+
+#toggle2:hover{
+background-color: olive;
+transition: 1s;
+}
+/* This button styling above is for visibility/ background color toggle */
+
+/* Styling for the overlay */
+
+.overlay{
+/* background-color: green; */
+}
+
+/* styling for the overlay */
+
+
 
 .hero_contents>div>h2{
+padding-top: 1rem;
 font-size: 2rem;
 margin-left: 18px;
 }
 
 .hero_culture{
-background-color: rgba(0, 255, 255, 0.082);
+background-color: rgba(0, 255, 242, 0.103);
 padding: 4rem;
 }
 
@@ -156,6 +211,25 @@ margin: 12px;
 /* flex-wrap: wrap; */
 
 }
+
+/* Button styling to change image */
+
+#toggle3{
+font-size: 1.1rem;
+font-weight: bold;
+background-color: peachpuff;
+padding: 10px;
+cursor: pointer;
+}
+
+#toggle3:hover{
+background-color: olive;
+transition: 1s;
+}
+
+/* Button styling to change image */
+
+
 .contents_dropdown>span{
 margin: 12px;
 }
